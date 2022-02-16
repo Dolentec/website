@@ -254,4 +254,25 @@ nav .content .links{
   font-size: 13px;
 }
 
+input {
+  text-align: center;
+  width: 80px;	
+  font-size: 28px;
+}
 
+#input {
+  font-size: 28px;
+}
+
+button {
+  margin: 30px auto;
+  padding: 10px 15px;
+  background-color: #2196F3;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#NOS {
+  display: none;	
+}

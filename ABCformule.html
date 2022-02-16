@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Home</title>
     <link rel="stylesheet" href="styles/stylesheet.css" />
-    <script src="scripts/index.js"></script>
   </head>
 
   <header>
@@ -77,9 +76,17 @@
         <br />
         <br />
     </p>
-    <form action="ABCformule.html">
-        <b>Year Born:</b> <input id="input001" type="number" min="1900">
-    </form>
-    <button onClick="calculateAge(birthYear);">Summit</button>
     </div>
+    <h1>Solve Any Quadratic Equation</h1>
+    <div id="input">
+      <input id="a"> x<sup>2</sup> <input id="b"> x <input id="c"> = 0
+    </div>
+    <button id="submit">SOLVE</button>
+    <div id="answers">
+      <p id="DIS"></p>
+      <p id="NOS">No solutions</p>
+      <p id="S1"></p>
+      <p id="S2"></p>
+    </div>
+    <script src="scripts/script.js"></script>
   </body>
