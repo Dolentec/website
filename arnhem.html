@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/stylesheet.css" />
+  </head>
+
+  <header>
+    <div class="wrapper">
+      <nav>
+        <input type="checkbox" id="show-search" />
+        <input type="checkbox" id="show-menu" />
+        <label for="show-menu" class="menu-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <div class="content">
+          <div class="logo"><a href="#">Niels van Rheenen</a></div>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="weer.html" class="desktop-link">Het Weer</a>
+              <input type="checkbox" id="show-features" />
+              <label for="show-features">Features</label>
+              <ul>
+                <li><a href="Nederland.html">Nederland Algemeen</a></li>
+                <li><a href="arnhem.html">Arnhem</a></li>
+                <li><a href="deBilt.html">De Bilt</a></li>
+                <li><a href="#">komt nog</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="services.html" class="desktop-link">Services</a>
+              <input type="checkbox" id="show-services" />
+              <label for="show-services">Services</label>
+              <ul>
+                <li>
+                  <a href="#">komt nog</a>
+                </li>
+                <li><a href="#">Komt nog</a></li>
+                <li><a href="#">Komt nog</a></li>
+                <li>
+                  <a href="#" class="desktop-link">More Items</a>
+                  <input type="checkbox" id="show-items" />
+                  <label for="show-items">More Items</label>
+                  <ul>
+                    <li><a href="#">Sub Menu 1</a></li>
+                    <li><a href="#">Sub Menu 2</a></li>
+                    <li><a href="#">Sub Menu 3</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <body class= "inhoud">
+    <div>
+      <p class="opvulling">
+        <br>
+        <br>
+        <br>
+        <br>
+    </p>
+      <h1>Arnhem</h1>
+      <p>
+          De stad Arnhem word in de geschiedenis voor het eerst genoemd in 814. <br>
+          Arnhem telt circa 450.000 inwoners en heeft een oppervlakte van 101,54 vierkante kilometer. <br>
+      </p>
+      <h2>Arnhem radar komende 3 uur</h2>
+      <iframe
+        src="https://gadgets.buienradar.nl/gadget/zoommap/?lat=51.98&lng=5.91111&overname=2&zoom=13&naam=Arnhem&size=3&voor=1"
+        scrolling="no"
+        width="550"
+        height="512"
+        frameborder="no"
+      ></iframe>
+
+      <div>
+          <h2>5-daagse verwachtingen</h2>
+        <iframe
+          src="//gadgets.buienradar.nl/gadget/forecastandstation/6275/"
+          noresize
+          scrolling="no"
+          hspace="0"
+          vspace="0"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          width="300"
+          height="190"
+        ></iframe>
+    </div>
+  </body>
+</html>
