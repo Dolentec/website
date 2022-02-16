@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Wind</title>
+    <title>Weather | Interactive Map</title>
     <link rel="stylesheet" href="styles/stylesheet.css" />
     <script src="scripts/index.js"></script>
   </head>
@@ -18,18 +18,18 @@
           ><i class="fas fa-bars"></i
         ></label>
         <div class="content">
-          <div class="logo"><a href="index.html">Niels van Rheenen</a></div>
+          <div class="logo"><a href="index.html">Dolentec</a></div>
           <ul class="links">
             <li><a href="index.html">Home</a></li>
             <li>
-              <a href="weer.html" class="desktop-link">Het Weer</a>
+              <a href="weer.html" class="desktop-link">The Weather</a>
               <input type="checkbox" id="show-features" />
               <label for="show-features">Features</label>
               <ul>
-                <li><a href="Nederland.html">Nederland Algemeen</a></li>
+                <li><a href="Nederland.html">The Netherlands</a></li>
                 <li><a href="arnhem.html">Arnhem</a></li>
                 <li><a href="deBilt.html">De Bilt</a></li>
-                <li><a href="wind.html">Wind Kaart</a></li>
+                <li><a href="wind.html">Interactive Map</a></li>
               </ul>
             </li>
             <li>
@@ -38,10 +38,10 @@
               <label for="show-services">Tools</label>
               <ul>
                 <li>
-                  <a href="ABCformule.html">ABC Formule</a>
+                  <a href="ABCformule.html">ABC Formula</a>
                 </li>
-                <li><a href="#">Komt nog</a></li>
-                <li><a href="#">Komt nog</a></li>
+                <li><a href="#">comming soon</a></li>
+                <li><a href="#">comming soon</a></li>
                 <li>
                   <a href="#" class="desktop-link">More Items</a>
                   <input type="checkbox" id="show-items" />
@@ -69,8 +69,28 @@
         <br />
         <br />
       </p>
-      <h1>Welkom op mijn website</h1>
-      <h2>Gemaakt door NIels van Rheenen</h2>
+      <h1>An Interactive Wheater Map Provided By Windy</h1>
+      <br />
     </div>
+
+    <div>
+      <iframe
+        width="750"
+        height="535"
+        src="https://embed.windy.com/embed2.html?lat=52.402&lon=5.515&detailLat=56.103&detailLon=-29.004&width=650&height=450&zoom=6&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
+        frameborder="0"
+      ></iframe>
+    </div>
+
+    <h2>Explaination</h2>
+    <p>
+        In the top right corner of the map you can choose wich variable you want to show on the map. <br />
+        you can zoom in and out by holding crtl and scrolling while hovering over the map with your mouse pointer. <br />
+        You can also zoom in and out with the buttons in the top right corner. <br />
+        You can also set an marker on the map by clicking on a location on the map, you can now see the value for this location. <br />
+        If you press the play button it wil show you how the variable you chose will change and progress in the comming days, <br />
+        You can also drag the date marker left and right. <br />
+    </p>
+
   </body>
 </html>
