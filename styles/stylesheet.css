@@ -285,3 +285,10 @@ input {
   background-color: #008CBA;
   color: white;
 }
+
+.black_img {
+  float: left;
+  position: absolute;
+  top: 180px;
+  left: 0px;
+}
