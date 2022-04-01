@@ -277,18 +277,46 @@ input {
   border-radius: 8px;
 }
 
-.button {
+.button1 {
   transition-duration: 0.4s;
 }
 
 .button1:hover {
   background-color: #008CBA;
   color: white;
+  cursor: pointer;
 }
 
-.black_img {
+.black_img1 {
   float: left;
   position: absolute;
-  top: 180px;
+  top: 160px;
   left: 0px;
+}
+
+.black_img2 {
+  float: right;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.button_about {
+  background-color: #121212; 
+  color: rgb(255, 255, 255); 
+  margin: 30px auto;
+  padding: 15px 28px;
+  border-radius: 8px;
+  border: #171c24;
+  font-size: larger;
+}
+
+.button_about {
+  transition-duration: 0.4s;
+}
+
+.button_about:hover {
+  background-color: #323c4e;
+  color: white;
+  cursor: pointer;
 }
