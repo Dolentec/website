@@ -26,7 +26,7 @@ nav .content{
   align-items: center;
 }
 nav .content .links{
-  margin-left: 80px;
+  margin-left: 75px;
   display: flex;
 }
 .content .logo a{
@@ -292,14 +292,10 @@ input {
   position: absolute;
   top: 160px;
   left: 0px;
+  width: 20%;
 }
 
-.black_img2 {
-  float: right;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
+
 
 .button_about {
   background-color: #121212; 
